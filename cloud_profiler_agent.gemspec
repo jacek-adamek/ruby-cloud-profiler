@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
                         'lib/cloud_profiler_agent/looper.rb',
                         'lib/cloud_profiler_agent/pprof_builder.rb']
 
-  spec.add_runtime_dependency 'google-cloud-profiler-v2', '~> 0.3'
+  spec.add_runtime_dependency 'google-cloud-profiler-v2', '~> 0.2'
   spec.add_runtime_dependency 'googleauth', '>= 0.14'
   spec.add_runtime_dependency 'google-protobuf', '~> 3.13'
   spec.add_runtime_dependency 'stackprof', '~> 0.2'
